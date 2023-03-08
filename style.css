@@ -1,0 +1,131 @@
+@import url("../PROYECTO/assets/fonts/Smokum/Smokum-Regular.ttf");
+@import url("../PROYECTO/assets/fonts/Rubik_Iso/RubikIso-Regular.ttf");
+@import url("../PROYECTO/assets/fonts/Shantell_Sans/ShantellSans-Italic-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf");
+@import url("../PROYECTO/assets/fonts/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf");
+@import url("../PROYECTO/assets/fonts/RampartOne-Regular.ttf");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+.header {
+  background-color: #fec899;
+  height: 70px;
+}
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.menu {
+  float: right;
+  margin: 24px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Smokum", cursive;
+  --glow-color: #f6e1c3;
+  --glow-spread-color: #d4bfa2;
+  --enhanced-glow-color: #cab190;
+  --btn-color: #e3bc86;
+  border: 0.25em solid var(--glow-color);
+  padding: 1em 2em;
+  color: rgba(68, 19, 19, 0.751);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+  position: relative;
+  margin: 6px;
+}
+
+.banner {
+  background-image: url(./assets/imagen2.png.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.banner h1 {
+  text-align: right;
+  font-size: 80px;
+  padding: 150px 50px;
+  font-family: "Rubik Iso", cursive;
+}
+
+.tablacategorias {
+  width: auto;
+  height: auto;
+}
+
+.lana {
+  padding: 50px;
+}
+
+.boton_categorias {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 10px;
+  line-height: 45px;
+  text-align: center;
+  background-image: url(../PROYECTO/assets/200w.gif);
+  float: center;
+}
+
+.boton_categorias:hover {
+  opacity: 0.2;
+}
+
+.boton_categorias a {
+  text-decoration: overline;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-family: "Rampart One", cursive;
+}
+
+.ALBUMES {
+  text-align: center;
+  padding: 10px;
+}
+
+.ALBUMES table {
+  padding: 30px 100px 30px 100px;
+}
+
+.ALBUMES h2 {
+  padding: 30px 0px;
+  font-family: "Rampart One", cursive;
+}
+
+.ALBUMES td {
+  margin: 3px;
+  padding: -2px;
+  text-align: left;
+  font-family: "Rampart One", cursive;
+}
+.ALBUMES td img {
+  margin: 4px;
+  padding: -4px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 100px 70px 100px;
+}
+
+@media (min-width: 380px) {
+}
